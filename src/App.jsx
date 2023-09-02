@@ -10,7 +10,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Products></Products>
-      <div className='md:flex'>
+      <div className='md:flex md:w-[900px] mx-auto'>
       <Dashboard></Dashboard>
       <PriceChart></PriceChart>
       </div>
