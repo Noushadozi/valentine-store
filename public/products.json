@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Flower Bouquet",
+        "description": "A beautiful bouquet of fresh flowers.",
+        "image_url": "https://images.unsplash.com/photo-1585554518009-e34e9d231739?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "name": "Handmade Greeting Card",
+        "description": "A personalized greeting card for any occasion.",
+        "image_url": "https://images.unsplash.com/photo-1577201872570-cf905a1a318e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "price": 4.99
+    },
+    {
+        "id": 3,
+        "name": "Chocolate Assortment",
+        "description": "A selection of fine chocolates in an elegant box.",
+        "image_url": "https://images.unsplash.com/photo-1565071559227-20ab25b7685e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "price": 14.99
+    },
+    {
+        "id": 4,
+        "name": "Cuddly Teddy Bear",
+        "description": "A soft and cuddly teddy bear perfect for gifting.",
+        "image_url": "https://images.unsplash.com/flagged/photo-1578477305564-0f62bd8dddd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "price": 24.99
+    },
+    {
+        "id": 5,
+        "name": "Fragrance Candle Set",
+        "description": "A set of scented candles in various soothing fragrances.",
+        "image_url": "https://images.unsplash.com/photo-1529516222410-a269d812f320?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "price": 29.99
+    },
+    {
+        "id": 6,
+        "name": "Jewelry Box",
+        "description": "A decorative jewelry box with intricate designs.",
+        "image_url": "https://images.unsplash.com/photo-1562616261-7bb659f860ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+        "price": 39.99
+    },
+    {
+        "id": 7,
+        "name": "Personalized Photo Frame",
+        "description": "A custom photo frame for your cherished memories.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1675143978259-4ccc4fd082f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1223&q=80",
+        "price": 12.99
+    },
+    {
+        "id": 8,
+        "name": "Scented Bath Bombs",
+        "description": "A set of bath bombs with soothing scents for relaxation.",
+        "image_url": "https://images.unsplash.com/photo-1578426720323-6d3b67133446?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1118&q=80",
+        "price": 19.99
+    }
+]
