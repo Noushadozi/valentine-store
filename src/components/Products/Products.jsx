@@ -4,7 +4,7 @@ import Product from '../Product/Product';
 const PriceList = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('../../../public/products.json')
+        fetch('public/products.json')
         .then(res=>res.json())
         .then(data=>setProducts(data))
     }, [])
