@@ -5,7 +5,7 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 const PriceChart = () => {
     const [prices, setPrices] = useState([]);
     useEffect(() => {
-        fetch('../../../public/products.json')
+        fetch('products.json')
             .then(res => res.json())
             .then(data => {
 
@@ -17,7 +17,6 @@ const PriceChart = () => {
                     }
                     return productInfo;
                 })
-                // console.log(productInfo);
                 setPrices(productsData);
             })
     }, [])
@@ -25,10 +24,9 @@ const PriceChart = () => {
     return (
         <div>
             <h1 className='text-center text-3xl py-12'>Chart Beneath shows the Prices of Our Product</h1>
-            <div className='mb-10 w-[450px] mx-auto'>
-
+            <div className='mb-10  mx-auto'>
                 <BarChart
-                    width={450}
+                    width={425}
                     height={300}
                     data={prices}
                 >

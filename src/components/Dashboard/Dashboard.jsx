@@ -72,9 +72,8 @@ const Dashboard = () => {
 
     return (
         <div>
-            <h2 className='text-center text-3xl py-12'>Beneath Chart shows the status of relationship<br/> of our customers🥵</h2>
-            <div className='w-[425px] mx-auto'>
-
+            <h2 className='text-center text-3xl py-12'>Beneath Chart shows the status of relationship<br /> of our customers🥵</h2>
+            <div className=' mx-auto'>
                 <LineChart
                     width={425}
                     height={300}
@@ -86,9 +85,9 @@ const Dashboard = () => {
                     <Line
                         dataKey='distance'
                     ></Line>
+                    <Tooltip></Tooltip>
                     <XAxis></XAxis>
                     <YAxis></YAxis>
-                    <Tooltip></Tooltip>
                 </LineChart>
             </div>
         </div>
